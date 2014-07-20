@@ -1,0 +1,15 @@
+---
+layout: default
+title: face!
+---
+<!-- Content ================================================== -->
+	<div class="posts">
+	  <ul>
+	  	{% for repli in site.posts %}
+	  	  <li>
+	  	    <a href="{{site.baseurl}}{{repli.url}}"><h3>{{repli.title | capitalize}}</h3></a>
+	  	    <p> | {{repli.meta | downcase }}</p>
+	  	  </li>
+	  	{% endfor %}
+	  </ul>
+	</div>

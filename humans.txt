@@ -1,0 +1,20 @@
+/* TEAM */
+                            
+Your title: Your name.                        
+Site: ssayabowo@gmail.com.                  
+Twitter: @bowoekren.                        
+Location: Jakarta, Indonesia.
+
+
+/* THANKS */
+
+HTML5 Muffin
+Name: name or url
+
+                            
+/* SITE */
+                          
+Last update: 2014/06/20                    
+Standards: HTML5, CSS3,..                   
+Components: Modernizr, jQuery, etc.                            
+Software: Software used for the development

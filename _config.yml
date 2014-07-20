@@ -1,0 +1,8 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+name: Your New Jekyll Site
+markdown: redcarpet
+plugins: 'font-awesone'
+baseurl: /b
+paginate: 5 # pagination basted on number of posts
+exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'bootstrap.scss'] # files to exclude
+

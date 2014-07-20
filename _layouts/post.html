@@ -1,0 +1,15 @@
+{% include head.html %}
+<div id="wrapper">
+   	<div id="body">
+		<div class="postwrapper">
+	  		<h3 class="posttitle">{{ page.title | upcase }}</h3>
+	  			<div class="date">{{ page.date | date: "%x" }}</div>
+					<div class="post">
+						{{ content }}
+					</div>
+					{% include bottom-nav.html %}
+		</div>
+		{% include footer.html %}
+   </div>
+</div>
+{% include javascript-footer.html %}

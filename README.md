@@ -1,4 +1,10 @@
-bowoekrenn.github.io
-====================
+HTML5 Muffin chocchip steps
+============================
 
-blog gue
+Run bundle install
+
+	bundle install
+
+Run jekyll
+
+	jekyll

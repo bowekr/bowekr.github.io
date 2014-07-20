@@ -1,0 +1,123 @@
+
+
+/* CSS RESET */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+		outline: 0 !Important;
+}
+
+html,body {
+	height:100%;
+	background: #121212;
+}
+
+#wrapper { 
+	min-height: 100%;
+	position:relative;
+}
+
+#body {
+	padding-bottom: 70px;
+}
+
+/* GLOBAL */
+em {
+	color: #E1AA5D;
+}
+
+p, h4 {
+	color: #BFBFBF;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+a:hover, a:visited, a:active, a:focus {
+	text-decoration: none !important;
+	color: #FF9600;
+}
+
+a {
+	color: #E1AA5D;
+	text-shadow: 0.0625em 0em 0.0.25em black; /* 1/16 */ /* 0/16 */ /* 4/16 */
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+ul {
+	list-style: none !important;
+}
+
+
+
+
+
+/* FOOTER */
+#footer {
+	height: 33px;
+	width: 100%;
+	background: black;
+	padding-top: 3px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+}
+
+ #footer > ul >li {
+	color: #444 !important;
+	font-size: 0.745em ; /* 10/16 */
+	display: inline-block;
+}
+
+#footer >  ul > li {
+	color: #999 !important;
+}
+
+/* POST CSS */
+.postwrapper {
+	padding-left: 270px;
+	padding-right: 300px;
+	padding-top: 20px;
+}
+
+.posts {
+	border: 5px solid #333;
+	padding: 19px 15px 33px 29px;
+}
+.date {
+	text-align: right;
+}
+
+.posttitle {
+	margin-bottom: 30px;
+	color: #E1AA5D;
+	padding-left: 15px;
+}
+
+.post {
+	text-align: left;
+	line-height: 15px;
+	border: 5px solid #333;
+	padding: 19px 15px 33px 15px;
+	line-height: 25px;
+	font-size: 17px;
+	margin-bottom: 33px;
+}
+
+.p {
+	padding-top: 30px;
+}
+/**
+Responsive buat android
+kasian yang mau buka pake mobile musti load fullsite :)
+kita kasih yang lite nih
+**/
+
+@media screen and ( max-width: 980px ) {
+	.post {
+	}
+}
