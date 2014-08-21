@@ -1,6 +1,6 @@
 ---
 layout: post
-title: posting pertama :)
+title: posting pertama
 meta: ga ngerti deh apa yang harus di tulis...
 ---
 

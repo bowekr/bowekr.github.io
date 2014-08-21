@@ -7,8 +7,8 @@ title: face!
 	  <ul>
 	  	{% for repli in site.posts %}
 	  	  <li>
-	  	    <a href="{{site.url}}{{repli.url}}"><h3>{{repli.title | capitalize}}</h3></a>
-	  	    <p> | {{repli.meta | downcase }}</p>
+	  	    <a href="{{site.url}}{{repli.url}}"><h3>{{repli.title}}</h3></a><i> {{repli.date | date: "%x"}}</i>
+	  	    <p> {{repli.content}}</p>
 	  	  </li>
 	  	{% endfor %}
 	  </ul>

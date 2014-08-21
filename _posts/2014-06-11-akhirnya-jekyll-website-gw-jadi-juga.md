@@ -1,5 +1,5 @@
 ---
-title: Akhirnya Blog Jekyll Gue Jadi Juga. Ini 3rd Post Btw.
+title: akhirnya blog jekyll gue jadi juga. ini 3rd post btw.
 layout: post
 meta: 3rd post
 ---
