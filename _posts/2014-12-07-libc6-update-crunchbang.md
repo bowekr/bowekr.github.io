@@ -8,9 +8,9 @@ lanjut running si geny, nah pas running. libc6 ga support. katanya musi pake yg 
 googling sana sini akhirnya nemu juga di stackoverflow.
 
 
-1. musti exit display manager, ctrl + alt + f1
-2. add ke sources.list
-**. deb deb http://ftp.debian.org/debian sid main
-3. update package, # apt-get update
-4. #apt-get install libc6
-5. profit
+- musti exit display manager, ctrl + alt + f1
+- add ke sources.list
+  - deb deb http://ftp.debian.org/debian sid main
+- update package, # apt-get update
+- #apt-get install libc6
+- profit
