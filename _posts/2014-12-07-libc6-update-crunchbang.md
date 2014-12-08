@@ -2,7 +2,7 @@
 layout: default
 title: upgrade libc6 2.19 pada crunchbang waldorf!
 ---
-coba2 pake distro yang katanya ubuntu based paling 'ringan'.
+coba2 pake distro yang katanya ubuntu based paling '__ringan__'.  
 jajalin install android emu di crunchbang, install vbox, install, download genymotion.
 lanjut running si geny, nah pas running. libc6 ga support. katanya musi pake yg v >= 2.15
 googling sana sini akhirnya nemu juga di stackoverflow.  
