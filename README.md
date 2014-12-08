@@ -1,10 +1,14 @@
-HTML5 Muffin chocchip steps
-============================
+Contrast
+========
 
-Run bundle install
+Lightweight Jekyll theme
 
-	bundle install
+ - mobile first
+ - syntax highlighting
+ - automatic [disqus](https://disqus.com/) / [isso](http://posativ.org/isso/) integration
 
-Run jekyll
+Released under *public domain*.
 
-	jekyll
+**Screenshot:**
+
+![screenshot](https://cloud.githubusercontent.com/assets/4943215/4261110/7f86f7dc-3b5e-11e4-8250-429e0248570f.png)
