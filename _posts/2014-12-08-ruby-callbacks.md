@@ -11,14 +11,10 @@ def update
 	end
 end
 ```
-#
-# lets kita pindahkan logic ini ke model
-#
 
-##
-# Good Code
-# - Model
-##
+
+**lets kita pindahkan logic ini ke model**
+```ruby
 class Zombie < ActiveRecord::Base
 	before_save :make_rotting
 
@@ -26,8 +22,7 @@ class Zombie < ActiveRecord::Base
 		self.rotting = true if age > 20
 	end
 end
-##
-# All Callback
+```
 before_validation
 after_validation
 
@@ -44,14 +39,18 @@ before_destroy
 after_destroy
 
 
-#
-# More Example
-#
-# Objective :
-# Create a before_save callback that checks to see if a tweet has a location, 
-# if it does have a location then set show_location to true.
-# Tip: You can check to see if location exists with if self.location?
-# Answer :
+
+**More Example**
+
+Objective :
+
+
+Create a before_save callback that checks to see if a tweet has a location, 
+if it does have a location then set show_location to true.
+Tip: You can check to see if location exists with if self.location?
+__Answer__ :
+
+```ruby
 class Tweet < ActiveRecord::Base
   before_save :check_location
 
@@ -61,3 +60,4 @@ class Tweet < ActiveRecord::Base
     end
   end
 end
+```
