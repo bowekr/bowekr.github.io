@@ -10,10 +10,16 @@ googling sana sini akhirnya nemu juga di stackoverflow.
 
  * musti exit display manager, ctrl + alt + f1
  * add ke sources.list
-```bash
+
+
+```
 deb http://ftp.debian.org/debian sid main
 ```
+
+
  * update package, lalu install libc6 
+
+
 ```
 $ apt-get update
 $ apt-get -t sid install libc6
