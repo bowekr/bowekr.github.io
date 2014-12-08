@@ -13,7 +13,9 @@ end
 ```
 
 
-**lets kita pindahkan logic ini ke model**
+**lets kita pindahkan logic ini ke model**  
+
+
 ```ruby
 class Zombie < ActiveRecord::Base
 	before_save :make_rotting
@@ -22,6 +24,8 @@ class Zombie < ActiveRecord::Base
 		self.rotting = true if age > 20
 	end
 end
+```
+
 ```
 before_validation
 after_validation
@@ -37,7 +41,7 @@ after_update
 
 before_destroy
 after_destroy
-
+```
 
 
 **More Example**
