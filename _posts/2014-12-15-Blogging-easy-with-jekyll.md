@@ -14,6 +14,8 @@ elo nulis artikel nih di notepad, nah ketika lo running jekyll ,_Buff!!_   text 
 #### Bow gue tertarik, gimana caranya install jekyll ?
 sudah gue tebak, lo pasti tertarik program keren gini masa iya elo lewatin begitu aja :D  
 oke, pertama lo harus punya kemauan( _mager dsb skip aja ya!_) punya pc bro ( _ya iyalah wo_ ), kedua paling engga lo harus tau ini
+
+
 * _Nyalain Komputer_
 * _
 * _HTML Dasar_
