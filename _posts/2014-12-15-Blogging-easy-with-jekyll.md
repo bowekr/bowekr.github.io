@@ -10,6 +10,7 @@ simple nya, Jekyll adalah static website generator,
 ga paham juga?  nih gue kasih contoh  
 elo nulis artikel nih di notepad, nah ketika lo running jekyll ,_Buff!!_   text lo bakal di transform menjadi sebuah website. owsom banget kan?
 
+  
 #### Bow gue tertarik, gimana caranya install jekyll ?
 * _HTML Dasar_
 * _CSS Dasar_
