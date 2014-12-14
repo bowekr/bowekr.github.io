@@ -12,7 +12,7 @@ googling sana sini akhirnya nemu juga di stackoverflow.
  * add ke sources.list
 
 
-```
+```sh
 deb http://ftp.debian.org/debian sid main
 ```
 
@@ -20,7 +20,7 @@ deb http://ftp.debian.org/debian sid main
  * update package, lalu install libc6 
 
 
-```
+```sh
 $ apt-get update
 $ apt-get -t sid install libc6
 ```
