@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Installing chroot Linux on Android
+categories: [Android]
 ---
 
 ###Pre-requiste
