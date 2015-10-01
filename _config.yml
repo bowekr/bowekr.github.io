@@ -10,7 +10,7 @@ disqus_username: "bowekr"
 #isso_domain: comments.mysite.org
 
 # Build settings
-#markdown: redcarpet
+markdown: redcarpet2
 permalink: /:title/
 
 defaults:
