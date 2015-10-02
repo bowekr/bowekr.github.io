@@ -13,6 +13,8 @@ disqus_username: "bowekr"
 markdown: redcarpet
 permalink: /:title/
 paginate: 10
+excerpt_separator: "\n\n\n" # excerpt ends after two blank lines
+
 defaults:
   -
     scope:
