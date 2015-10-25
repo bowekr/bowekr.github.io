@@ -14,6 +14,8 @@ dan jadilah Guidelines ini .
 5. Soon..
 
 Ke 4 Guidelines ini sudah mencakup banyak aspek.
+
+
 1. Maintainability
 2. Readability
 3. Modular
