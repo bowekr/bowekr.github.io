@@ -4,7 +4,7 @@ layout: default
 ---
 
 Welcome,  
-Ya kemarin gue habis ngerjain task, dimana task ini gue harus mem-validasi sebuah hash inside array,
+Ya sebelum nya gue mau curha, kemarin gue habis ngerjain task, dimana task ini gue harus mem-validasi sebuah hash inside array,
 mulai dari size array-nya, size hash inside array-nya, key dari hashnya, value dari hash nya,
 dan itu semua harus gw buat validasinya atau policy nya, paham kan? belum?  
 
