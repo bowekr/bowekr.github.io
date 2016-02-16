@@ -14,7 +14,7 @@ Sheeeet, ketak ketik ketak ketik, baca official document ReactJS, coba sebentar,
 
 "Ok, ReactJS udah faham konsepnya, sekarang bagiamana cara integrate ke rails project" bisik gue,
 gue pun langsung nanya sama mbah "react on rails" , emang dasar si mbah ini pengalaman banget, tau aja apa yang gue butuhin gitu,
-di bawalah gue sama si mbah ke github pages nya (react-rails)[https://github.com/reactjs/react-rails], emang pengertian dah.
+di bawalah gue sama si mbah ke github pages nya [react-rails](https://github.com/reactjs/react-rails), emang pengertian dah.
 
 
 Oke setelah gue di bawah ke pagesnya react-rails gue coba baca README pada halaman depan nya, ga sampe 10 menit gue langsung paham cara kerja gemfile ini, dan gue langsung decide untuk pake ini ke project kantor gue,
