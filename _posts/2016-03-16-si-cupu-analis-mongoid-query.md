@@ -3,9 +3,9 @@ title: Iseng benchmarking mongoid query ala newbie
 layout: default
 ---
 
-Goal: Menampilkan hanya 1 filed yang di butuhkan
-Test Methods: Pluck, Distinct, & Only
-DB Collections: 4 items
+Goal: Menampilkan hanya 1 filed yang di butuhkan  
+Test Methods: Pluck, Distinct, & Only  
+DB Collections: 4 items  
 
 ```ruby
 Benchmark.bm do |x|
