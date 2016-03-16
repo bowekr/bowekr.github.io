@@ -15,13 +15,17 @@ Benchmark.bm do |x|
 end
 ```
 
+```
     user     system      total        real
 0.000000   0.000000   0.000000 (  0.007666)
 0.000000   0.000000   0.000000 (  0.001932)
 0.000000   0.000000   0.000000 (  0.000139)
+```
 
 Whats going on?
 Lets Explain
+
+
 
 Pluck
 pada dokumentasi mongoid tertulis : `Get all the non nil values for the provided field.`
@@ -78,7 +82,7 @@ end
 ```
 
 Result :
-
+```
 Rehearsal ------------------------------------
    0.000000   0.000000   0.000000 (  0.002182)
    0.000000   0.000000   0.000000 (  0.010644)
@@ -91,7 +95,7 @@ Rehearsal ------------------------------------
    0.000000   0.000000   0.000000 (  0.002086)
    0.000000   0.000000   0.000000 (  0.002590)
    0.000000   0.000000   0.000000 (  0.002631)
-
+```
 
 
 So udah liat sendiri kan perbedaan masing2 method, jadi gunakan method tersebut sesuai kebutuhan.
