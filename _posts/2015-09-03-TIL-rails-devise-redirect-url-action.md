@@ -2,7 +2,6 @@
 title: TIL: Redirect to current_page after login with Devise gem
 layout: default
 ---
-
 Tadi abis makan siang, kepikiran gimana ya kalo user klik tombol yang mengharuskan user itu login, nah ketika user itu klik login, maka page akan redirect back ke tempat dimana user itu di prompt untuk login.
 
 
