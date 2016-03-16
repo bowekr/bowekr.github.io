@@ -34,14 +34,18 @@ yap, tugasnya pluck adalah mengambil data record dari collection,
 lalu mereturn array of spesifik field yang valuenya tidak nil,
 jika valuenya nil, mongoid akan skip record tersebut dan berjalan maju hingga menemukan field yang valuenya available.
 
-But gue menemukan fact, pluck ternyata juga mereturn nil dalam array nya
+But gue menemukan fact, pluck ternyata juga mereturn nil dalam array nya  
+
 ```ruby
 Post.pluck(:name)
 => [ "bowo", nil, nil "owob" ]
 ```
+
 mungkin bisa dilihat source code pluck ini seperti apa, tapi pada article ini gue engga akan coba sampe sana.
 
-
+<br />
+<br />
+<br />
 
 ##Distinct
 ----
@@ -56,6 +60,10 @@ remember distinct dan pluck sama2 mereturn array
 Post.distinct(:name)
 => [ "bowo" ]
 ```
+<br />
+<br />
+<br />
+
 
 ##Only
 ----
