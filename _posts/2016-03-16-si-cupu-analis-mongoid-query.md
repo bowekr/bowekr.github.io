@@ -27,7 +27,8 @@ Lets Explain
 
 
 
-Pluck
+###Pluck  
+----
 pada dokumentasi mongoid tertulis : `Get all the non nil values for the provided field.`
 yap, tugasnya pluck adalah mengambil data record dari collection,
 lalu mereturn array of spesifik field yang valuenya tidak nil,
@@ -42,7 +43,8 @@ mungkin bisa dilihat source code pluck ini seperti apa, tapi pada article ini gu
 
 
 
-Distinct
+##Distinct
+----
 pada dokumentasi mongoid tertulis : `Get a list of distinct values for a single field.`
 simplenya distinct akan remove duplicate value, dan mereturn hanya 1 yang distinct, contohnya
 anggap kita punya field :nama, pada record pertama nama: "bowo", record kedua nama: "bowo"
@@ -55,7 +57,8 @@ Post.distinct(:name)
 => [ "bowo" ]
 ```
 
-Only
+##Only
+----
 pada dokumentasi mongoid tertulis : `Return only selected fields of each records`
 penjelasan pada qoute di atas sepertinya sudah menjelaskan mungkin short of code ini bisa nambahin
 
