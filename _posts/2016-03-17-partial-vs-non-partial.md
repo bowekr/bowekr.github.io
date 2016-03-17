@@ -139,9 +139,9 @@ Completed 200 OK in 131ms (Views: 108.5ms)
 
 
 
-Pros :
-Partial Render :
-  Props :
+Pros :  
+Partial Render :  
+  Props :  
     * Konsistensi Schema
        Dengan menggunakan partial template, schema json yang di return akan lebih konsisten,
        ketika partial itu di gunakan dimanapun schema akan tetap seperti itu, tidak berubah.
@@ -160,12 +160,12 @@ Partial Render :
       Ada satu kaskus dimana kita ingin menambahkan satu field tambahan untuk spesifik page,
       contohnya Page A menggunakan default partial, Page B ingin menggunakan partial tersebut tetapi dengan tambahan field price
 
-Non Partial :
-  Pros :
+Non Partial :  
+  Pros :  
     * Easy to Customize
       Tiap2 page dapat menambahkan atau mengurangi field yang hanya mereka butuhkan saja.
 
-  Cons :
+  Cons :  
     * Schema tidak Konsisten
         Ketika 10 page membutuhkan data yang sama atau schema yang sama, kita harus menulis kembali schema pada tiap2 pages yang membutuhkan data atau schema tersebut.
 
