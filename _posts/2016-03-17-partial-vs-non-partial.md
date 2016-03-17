@@ -94,6 +94,7 @@ Total sekitar 160.1ms atau sekitar 0.1601 detik, cukup mengesankan, oke kita kee
 schema nya begini
 <br />
 <br />
+
 ```ruby
 # /home/home.json.jbuilder
 {
@@ -104,6 +105,7 @@ schema nya begini
   end
 }
 ```
+
 <br />
 <br />
 <br />
@@ -149,13 +151,15 @@ Completed 200 OK in 131ms (Views: 108.5ms)
 ## Partial Render :
 <br />
 ### Pros
-__*Konsistensi Schema*__
+__*Konsistensi Schema*__ 
+<br />
 Dengan menggunakan partial template, schema json yang di return akan lebih konsisten, ketika partial itu di gunakan dimanapun schema akan tetap seperti itu, tidak berubah.
 
 __*Easy to Maintain*__
+<br />
 Template dapat di gunakan dimana saja, sebagai contoh ada 10 pages yang mangambil partial post ketika kita ingin merubah schema nya, kita cukup merubah 1 file template saja.
 
-__*DRY*__
+__*DRY*__ <br />
 Kering, WHAT? Don't Repeat Yourself.
 
 __*Single Responsibility*__
@@ -163,7 +167,7 @@ __*Single Responsibility*__
 <br />
 <br />
 ### Cons :
-__*Hard to customize*__
+__*Hard to customize*__  
 Ada satu kaskus dimana kita ingin menambahkan satu field tambahan untuk spesifik page, contohnya Page A menggunakan default partial, Page B ingin menggunakan partial tersebut tetapi dengan tambahan field price
 
 
@@ -181,6 +185,7 @@ Tiap2 page dapat menambahkan atau mengurangi field yang hanya mereka butuhkan sa
 <br />
 ### Cons
 __*Schema tidak Konsisten*__
+<br />
 Ketika 10 page membutuhkan data yang sama atau schema yang sama, kita harus menulis kembali schema pada tiap2 pages yang membutuhkan data atau schema tersebut.
 
 
