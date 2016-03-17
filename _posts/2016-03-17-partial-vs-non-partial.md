@@ -92,7 +92,8 @@ Completed 200 OK in 156ms (Views: 132.3ms)
 
 Total sekitar 160.1ms atau sekitar 0.1601 detik, cukup mengesankan, oke kita keep ini sebagai catatan lalu kita coba test lagi dengan tidak menggunakan partial, tapi kita ketik langsung di home.json.jbuilder nya.
 schema nya begini
-
+<br />
+<br />
 ```ruby
 # /home/home.json.jbuilder
 {
@@ -103,9 +104,12 @@ schema nya begini
   end
 }
 ```
-
+<br />
+<br />
+<br />
 back to browser, saatnya kita refresh browser, and result from rails server console
 
+<br />
 ```
 Started GET "/home.json" for 127.0.0.1 at 2016-03-17 21:30:40 +0700
 Processing by HomeController#home as JSON
@@ -114,7 +118,8 @@ Completed 200 OK in 137ms (Views: 106.8ms)
 ```
 
 ah masa kecil banget, coba di refresh lagi sampe 3x wo, Oke lets see
-
+<br />
+<br />
 
 ```
 Started GET "/home.json" for 127.0.0.1 at 2016-03-17 21:31:15 +0700
@@ -134,12 +139,15 @@ Processing by HomeController#home as JSON
   Rendered home/home.json.jbuilder (84.9ms)
 Completed 200 OK in 131ms (Views: 108.5ms)
 ```
-
+<br />
+<br />
+<br />
 
 
 
 
 ## Partial Render :
+<br />
 ### Pros
 __*Konsistensi Schema*__
 Dengan menggunakan partial template, schema json yang di return akan lebih konsisten, ketika partial itu di gunakan dimanapun schema akan tetap seperti itu, tidak berubah.
@@ -152,17 +160,25 @@ Kering, WHAT? Don't Repeat Yourself.
 
 __*Single Responsibility*__
 
+<br />
+<br />
 ### Cons :
 __*Hard to customize*__
 Ada satu kaskus dimana kita ingin menambahkan satu field tambahan untuk spesifik page, contohnya Page A menggunakan default partial, Page B ingin menggunakan partial tersebut tetapi dengan tambahan field price
 
 
-## Non Partia
+<br />
+<br />
+<br />
+<br />
+## Non Partial
 
 ## Pros
 __*Easy to Customize*__
 Tiap2 page dapat menambahkan atau mengurangi field yang hanya mereka butuhkan saja.
 
+<br />
+<br />
 ### Cons
 __*Schema tidak Konsisten*__
 Ketika 10 page membutuhkan data yang sama atau schema yang sama, kita harus menulis kembali schema pada tiap2 pages yang membutuhkan data atau schema tersebut.
@@ -171,6 +187,7 @@ Ketika 10 page membutuhkan data yang sama atau schema yang sama, kita harus menu
 __*Ketika*__ schema tersebut ingin kita tambahkan field baru atau menguranginya, kita harus remove 10 other yang  membutuhkan schema yang sama
 
 __*WET*__
+
 
 
 
