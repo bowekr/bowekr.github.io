@@ -163,7 +163,7 @@ __*Single Responsibility*__
 <br />
 <br />
 ### Cons :
-__*Hard to customize*__
+__*Hard to customize*__  
 Ada satu kaskus dimana kita ingin menambahkan satu field tambahan untuk spesifik page, contohnya Page A menggunakan default partial, Page B ingin menggunakan partial tersebut tetapi dengan tambahan field price
 
 
