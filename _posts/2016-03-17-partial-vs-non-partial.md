@@ -16,7 +16,7 @@ Yak setelah task atau kerjaan gw sudah mencapai titik Frontend, disinilah gue ba
 
 Back to Topic, gue mau ngasih comparison perbandingan yang gue rasakan ketika menggunakan Partial, atau tidak dengan Partial view, di rails biasanya kita menggunakan partial agar view kita bisa di Reuse dengan komponen lain atau dalam segi Konsistensi. Yak partial emang menjadi solusi buat 2 masalah ini. tapi Bagaimana performancenya?
 
-Oke kali ini gue mencoba rendering partial `jbuilder`, buat yang engga tau apa itu jbuilder bisa main2 dulu ke ke rumahnya si jbuilder (disini)[https://github.com/rails/jbuilder] baca2 dulu biar paham, kalo udah paham ajarin yang laen biar jadi orang yang berguna okeh? LOHH!, untuk contoh kali ini gw coba buat sample json format, kurang lebih begini schema nya
+Oke kali ini gue mencoba rendering partial `jbuilder`, buat yang engga tau apa itu jbuilder bisa main2 dulu ke ke rumahnya si jbuilder [disini](https://github.com/rails/jbuilder) baca2 dulu biar paham, kalo udah paham ajarin yang laen biar jadi orang yang berguna okeh? LOHH!, untuk contoh kali ini gw coba buat sample json format, kurang lebih begini schema nya
 
 ```javascript
 {
