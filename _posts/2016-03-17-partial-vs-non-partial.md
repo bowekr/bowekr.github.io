@@ -20,7 +20,7 @@ Oke kali ini gue mencoba rendering partial `jbuilder`, buat yang engga tau apa i
 
 ```javascript
 {
-  post_id: "string"
+  post_id: "string",
   poster_id: "string",
   poster_name: "string"
 }
@@ -28,7 +28,7 @@ Oke kali ini gue mencoba rendering partial `jbuilder`, buat yang engga tau apa i
 
 nah schema di atas gw taro di dalam folder `shared` di `view`, lalu HomeController merender nya sebagai partial dari file home.json.jbuilder, kurang lebih begini code nya
 
-```javascript
+```ruby
 # /home/home.json.jbuilder
 {
   json.partial! 'shared/post', locals: { post: @new_post }
@@ -139,39 +139,37 @@ Completed 200 OK in 131ms (Views: 108.5ms)
 
 
 
-Pros :
-Partial Render :
-  Props :
-    * Konsistensi Schema
-       Dengan menggunakan partial template, schema json yang di return akan lebih konsisten,
-       ketika partial itu di gunakan dimanapun schema akan tetap seperti itu, tidak berubah.
+## Partial Render :
+### Pros
+__*Konsistensi Schema*__
+Dengan menggunakan partial template, schema json yang di return akan lebih konsisten, ketika partial itu di gunakan dimanapun schema akan tetap seperti itu, tidak berubah.
 
-    * Easy to Maintain
-      Template dapat di gunakan dimana saja, sebagai contoh ada 10 pages yang mangambil partial post
-      ketika kita ingin merubah schema nya, kita cukup merubah 1 file template saja.
+__*Easy to Maintain*__
+Template dapat di gunakan dimana saja, sebagai contoh ada 10 pages yang mangambil partial post ketika kita ingin merubah schema nya, kita cukup merubah 1 file template saja.
 
-    * DRY
-      Kering, WHAT? Don't Repeat Yourself.
+__*DRY*__
+Kering, WHAT? Don't Repeat Yourself.
 
-    * Single Responsibility
+__*Single Responsibility*__
 
-  Cons :
-    * Hard to customize
-      Ada satu kaskus dimana kita ingin menambahkan satu field tambahan untuk spesifik page,
-      contohnya Page A menggunakan default partial, Page B ingin menggunakan partial tersebut tetapi dengan tambahan field price
+### Cons :
+__*Hard to customize*__
+Ada satu kaskus dimana kita ingin menambahkan satu field tambahan untuk spesifik page, contohnya Page A menggunakan default partial, Page B ingin menggunakan partial tersebut tetapi dengan tambahan field price
 
-Non Partial :
-  Pros :
-    * Easy to Customize
-      Tiap2 page dapat menambahkan atau mengurangi field yang hanya mereka butuhkan saja.
 
-  Cons :
-    * Schema tidak Konsisten
-        Ketika 10 page membutuhkan data yang sama atau schema yang sama, kita harus menulis kembali schema pada tiap2 pages yang membutuhkan data atau schema tersebut.
+## Non Partia
 
-    * Ketika schema tersebut ingin kita tambahkan field baru atau menguranginya, kita harus remove 10 other yang  membutuhkan schema yang sama
+## Pros
+__*Easy to Customize*__
+Tiap2 page dapat menambahkan atau mengurangi field yang hanya mereka butuhkan saja.
 
-    * WET
+### Cons
+__*Schema tidak Konsisten*__
+Ketika 10 page membutuhkan data yang sama atau schema yang sama, kita harus menulis kembali schema pada tiap2 pages yang membutuhkan data atau schema tersebut.
+
+__*Ketika*__ schema tersebut ingin kita tambahkan field baru atau menguranginya, kita harus remove 10 other yang  membutuhkan schema yang sama
+
+__*WET*__
 
 
 
