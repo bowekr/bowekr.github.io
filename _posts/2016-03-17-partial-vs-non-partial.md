@@ -167,6 +167,7 @@ Tiap2 page dapat menambahkan atau mengurangi field yang hanya mereka butuhkan sa
 __*Schema tidak Konsisten*__
 Ketika 10 page membutuhkan data yang sama atau schema yang sama, kita harus menulis kembali schema pada tiap2 pages yang membutuhkan data atau schema tersebut.
 
+
 __*Ketika*__ schema tersebut ingin kita tambahkan field baru atau menguranginya, kita harus remove 10 other yang  membutuhkan schema yang sama
 
 __*WET*__
