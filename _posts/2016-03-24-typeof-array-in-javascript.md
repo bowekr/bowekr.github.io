@@ -22,6 +22,8 @@ for example we have this array
 ```
 
 in deep javascript ini yang mereka lakukan pada array kalian
+
+
 ```javascript
 {
   0: 'a',
@@ -36,6 +38,7 @@ in deep javascript ini yang mereka lakukan pada array kalian
   }
 }
 ```
+
 
 ya bisa kalian lihat sendiri array seperti sebuah hash mereka punya key dan value
 index nya berupa number, so ketika kita pangggil arr[0]
