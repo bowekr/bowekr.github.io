@@ -9,7 +9,7 @@ so hasil seraching2 dan mencoba,
 dan ternyata hasilnya mudah.
 
 
-try this pada before block
+try this pada before block  
 ```ruby
 user = create(:user) # FactoryGirl
 post_via_redirect user_session_path, user: { email: user.email, password: user.password }
