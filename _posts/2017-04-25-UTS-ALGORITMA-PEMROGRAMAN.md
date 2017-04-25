@@ -29,6 +29,8 @@ untuk fitur nya itu sendiri, pada aplikasi laundry ini punya fitur potongan harg
 berikut screenshoot program yang sudah saya buat yang sudah running well (run mode):
 
 
+![Output Hasil](https://www.dropbox.com/s/4rv1appeswi1tdi/PROGRAM%20JADI.jpg)
+
 
 
 C) Source Code
