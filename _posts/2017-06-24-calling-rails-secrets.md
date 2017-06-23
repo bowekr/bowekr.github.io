@@ -1,6 +1,6 @@
 ---
 layout: default
-title: upgrade libc6 2.19 pada crunchbang waldorf!
+title: memanggil rails secrets value pada rails
 ---
 
 dulu waktu awal ngoding rails belom pernah tau sih gimana caranya manggil data dari secrets.yml, trus pake cara manual buat manggil nya kurang lebih begini.   
