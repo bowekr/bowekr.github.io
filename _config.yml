@@ -10,7 +10,7 @@ disqus_username: "bowekr"
 #isso_domain: comments.mysite.org
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: /:title/
 paginate: 10
 excerpt_separator: "\n\n\n" # excerpt ends after two blank lines
