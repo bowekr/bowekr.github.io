@@ -1,5 +1,5 @@
 ---
-layout: defualt
+layout: default
 title: UAS Lab Algoritma, Aplikasi Kontak
 ---
 
