@@ -1,5 +1,5 @@
 ---
-title: [Refactoring Technique] Extract method
+title: Refactoring Technique Extract method
 layout: default
 ---
 Banyak jalan menuju roma, mungkin bisa di bilang begitu dalam dunia programming, kalo kalo ga bisa pake int, bisa pake string, kalo ga bisa pake array, bisa pake hash, kalo ga bisa pake hash, bisa pake tuple, dan seterusnya sampe kiamat, sebenernya tujuannya satu, cuma cara nya aja yang beda, BETUL!   
