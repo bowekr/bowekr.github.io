@@ -3,3 +3,5 @@ label: Example
 hide_body: false
 is_partial: false
 fields: []
+pages:
+- _posts/2019-02-07-til-golang-map.md
