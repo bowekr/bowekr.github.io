@@ -2,13 +2,16 @@
 date: 2019-02-07 09:03:14 +0000
 
 ---
-TIL
+---
+title: TIL Golang Map
+layout: default
+---
 
-\---
+TIL
 
 Pada data struktur Map, default key order yang di hasilkan tidak berdasarkan insertion order, melainkan random .  
 
-\`\`\`go
+```go
 
 func main() {
 
@@ -28,6 +31,6 @@ func main() {
 
 }
 
-\`\`\`
+```
 
 output hasil println akan berbeda2 ordering nya.
