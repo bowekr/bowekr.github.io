@@ -4,7 +4,6 @@ date: 2019-02-07 09:03:14 +0000
 ---
 ---
 title: TIL Golang Map
-layout: default
 ---
 
 TIL
