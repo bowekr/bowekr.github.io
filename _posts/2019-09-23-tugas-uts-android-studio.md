@@ -23,8 +23,11 @@ program ini dibuat untuk manage contact (nama dan nomor telpon), dengan fitur ya
 
 ### Component Program
 - 3 Activity (MainActivity, AddActivity, EditActivity)
+- Toast
 - ListView
 - SQLite sebagai database contact.
+- Loop
+- If
 
 
 ### Screenshot Hasil Program
