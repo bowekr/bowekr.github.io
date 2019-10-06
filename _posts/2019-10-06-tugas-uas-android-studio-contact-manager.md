@@ -1,5 +1,5 @@
 ---
-title: Tugas UTS Pembuatan Aplikasi Contact Sederhana dengan Android Studio dan SQLite.
+title: Tugas UAS Pembuatan Aplikasi Contact Sederhana dengan Android Studio dan SQLite, ListView, dan Login
 layout: default
 ---
 
